@@ -47,3 +47,49 @@ print(f"boolean_var ({type(boolean_var)}): {boolean_var}")
 print(f"list_var ({type(list_var)}): {list_var}")
 print(f"tuple_var ({type(tuple_var)}): {tuple_var}")
 print(f"dict_var ({type(dict_var)}): {dict_var}")
+
+
+
+
+# Task 1: Arithmetic Operations
+a = 10
+b = 5
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Modulo:", a % b)
+
+# Task 2: Comparison Operators
+print("\nComparison Operators:")
+print("a > b:", a > b)
+print("a < b:", a < b)
+print("a == b:", a == b)
+print("a != b:", a != b)
+print("a >= b:", a >= b)
+print("a <= b:", a <= b)
+
+# Task 3: Assignment Operators
+print("\nAssignment Operators:")
+x = 20
+print("Initial x:", x)
+x += 5
+print("After x += 5:", x)
+x -= 3
+print("After x -= 3:", x)
+x *= 2
+print("After x *= 2:", x)
+x /= 4
+print("After x /= 4:", x)
+x %= 3
+print("After x %= 3:", x)
+
+# Task 4: Logical Operators
+print("\nLogical Operators:")
+bool1 = True
+bool2 = False
+
+print("bool1 and bool2:", bool1 and bool2)
+print("bool1 or bool2:", bool1 or bool2)
+print("not bool1:", not bool1)
